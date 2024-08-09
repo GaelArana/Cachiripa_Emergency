@@ -4,8 +4,8 @@ export class StartScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('backgroundImage', '../../images/ambiente/menu.png');
-        this.load.image('playButton', '../../images/ambiente/boton_play.png'); // Carga la imagen del botón de play
+        this.load.image('backgroundImage', '../images/ambiente/menu.png');
+        this.load.image('playButton', '../images/ambiente/boton_play.png'); // Carga la imagen del botón de play
     }
 
     create() {
